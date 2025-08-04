@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    volumes:
+     - .:/app
+    user: 1000:100
