@@ -49,3 +49,14 @@ I have no name!@baf359583f63:/app$ cat hello_world.rb
 
 # 複数起動させている時は puts hostname またはputs `hostname`
 で対応しているコンテナ以外は停止させること
+
+# 算術演算子
+ / % **(2乗)+ - *
+
+# 比較演算子
+!= == < とか
+
+# 論理演算子
+&& どちらもtrueのときtrue
+|| どちらかtrueのときtrue
+! trueをfalseに、flaseをtrueにする
