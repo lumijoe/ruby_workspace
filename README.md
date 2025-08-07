@@ -46,3 +46,6 @@ touch ファイル名
 # 追記はecho~>>、確認はcat~
 echo 'puts "追加内容"' >> hello_world.rb
 I have no name!@baf359583f63:/app$ cat hello_world.rb 
+
+# 複数起動させている時は puts hostname またはputs `hostname`
+で対応しているコンテナ以外は停止させること
