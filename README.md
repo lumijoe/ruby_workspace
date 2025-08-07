@@ -28,7 +28,9 @@ Dockerを使用してRubyを起動させる
 用途: デバッグ、パッケージインストール、ファイル確認など開発作業
 
 # ファイルを編集する際はexitで終了してリポジトリ表示でOK
-lumikojo@LuminoiMac ruby_workspace% になっているか
+~~ ruby_workspace% になったらOK
 # rubyを実行したい時はDockerに入る必要がある
-I have no name!@547827ce9fd3:/app$ になっているか
+I have no name!~~:/app$ になっているか
 outの方法は```exit```
+# ファイルの表示方法は
+Dockerに入ってから、```ruby calc.rb```
