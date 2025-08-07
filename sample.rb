@@ -23,20 +23,20 @@ greet(3 + 4)
 
 # 用語の整理：
 # 関数（function）:
-# rubydef add(a, b)     # ← addが関数名
+# def add(a, b)     # ← addが関数名
 #   return a + b
 # end
 # キーワード（keyword）:
-# rubydef      # 関数を定義するキーワード
+# def      # 関数を定義するキーワード
 # return   # 値を返すキーワード
 # if       # 条件分岐のキーワード
 # end      # 終了のキーワード
 # 引数（argument）:
-# rubydef add(a, b)     # ← a, bが引数
+# def add(a, b)     # ← a, bが引数
 # 演算子（operator）:
-# rubya + b     # ← +が演算子（計算する記号）
+# a + b     # ← +が演算子（計算する記号）
 # returnの役割：
-# rubydef calculate(x, y)
+# def calculate(x, y)
 #   result = x * 2 + y
 #   return result    # ← "resultの値を外に渡す"
 # end
