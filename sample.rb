@@ -78,3 +78,9 @@ puts square(5)
 # 定義時：messageという「入れ物」を用意
 # 呼び出し時："Hello World"という「実際の値」を入れ物に入れる
 # 実行時：入れ物の中身（"Hello World"）を使用
+
+def cashier(price1, price2)
+    puts price1 + price2
+end
+
+cashier(100, 200)
