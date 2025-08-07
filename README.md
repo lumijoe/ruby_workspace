@@ -79,4 +79,5 @@ com +shift+p　でOpen Settings JSON　のuserを選び
 - gem install rubocopをDocker環境上で実行
 - ターミナルを再起動または再度重複関数でチェックしてみる
 　〜Successfully 〜のような13 gems installedとなればOK
-
+- rubocop --version で確認
+- rubocop sample.rb で、ターミナルで重複警告が確認できる

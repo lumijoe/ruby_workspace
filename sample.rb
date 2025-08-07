@@ -102,3 +102,7 @@ end
 
 cashier(100, 200)
 
+def cashier(p, r)
+    puts (p + r)
+end
+cashier(20, 10)
