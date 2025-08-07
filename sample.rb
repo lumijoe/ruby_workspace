@@ -83,4 +83,22 @@ def cashier(price1, price2)
     puts price1 + price2
 end
 
+
 cashier(100, 200)
+
+def cashier(price1, price2)
+    tax_rate_a = 1.1
+    puts (price1 + price2) * tax_rate_a
+end
+
+cashier(100, 200)
+
+
+# (price1 + price2) * 1.1.floorのように書くのはNG
+# 1.1.floorが先に計算されてしまい、計算結果がおかしくなるので、必ず計算後のものをfloorするように！
+def cashier(price1, price2)
+    puts ((price1 + price2) * 1.1).floor
+end
+
+cashier(100, 200)
+

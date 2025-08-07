@@ -61,3 +61,22 @@ I have no name!@baf359583f63:/app$ cat hello_world.rb
 || どちらかtrueのときtrue
 ! trueをfalseに、flaseをtrueにする
 
+# Rubyの拡張機能、同じ関数を使用しているときの警告
+VSCode拡張機能
+Ruby 拡張機能
+Ruby Solargraph
+RuboCop 拡張機能
+有効にならない場合は
+com +shift+p　でOpen Settings JSON　のuserを選び
+~Library/Application Support/Code/User/settings.jsonの部分が開かれるので
+→ 〜"window.commandCenter": falseとなっている箇所に,を追加して
+    "ruby.rubocop.onSave": true,
+    "ruby.lint": {
+        "rubocop": true
+    }
+    を追加。
+- グレーアウトしている場合はインストールされていないので
+- gem install rubocopをDocker環境上で実行
+- ターミナルを再起動または再度重複関数でチェックしてみる
+　〜Successfully 〜のような13 gems installedとなればOK
+
