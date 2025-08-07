@@ -17,4 +17,6 @@ def greet(calc)
     puts calc
 end
 
-puts (3 + 4)
+greet(3 + 4)
+
+# Rubyは関数がダブっても実行タイミングが上からされる＝そのものが表示される（CSSとは違う）
