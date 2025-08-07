@@ -34,3 +34,15 @@ I have no name!~~:/app$ になっているか
 outの方法は```exit```
 # ファイルの表示方法は
 Dockerに入ってから、```ruby calc.rb```
+
+# インタプリタ方式
+Dockerに入ってから、```irb```
+```irb(main):001:0>``` の後に
+puts ~~ で、　表示されるようになるので表示がどうなるか知りたいときに便利
+最後は```exit```で終了（終了時エラーは影響なし、無視で大丈夫）
+
+# ファイル作成
+touch ファイル名
+# 追記はecho~>>、確認はcat~
+echo 'puts "追加内容"' >> hello_world.rb
+I have no name!@baf359583f63:/app$ cat hello_world.rb 
