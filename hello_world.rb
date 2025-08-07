@@ -32,3 +32,10 @@ puts "追加内容"
 # 5.times do |count|
 #   puts count # 0から4までの数値を順に出力します。
 # end
+
+# 関数def grret
+# def greet
+#   puts "Hello World"
+# end
+
+# greet
