@@ -49,3 +49,32 @@ greet(3 + 4)
 # a + b = 計算（演算）
 
 # returnは「計算結果を外に渡すための命令」
+
+def multiply(x, y)
+   return x * y
+end
+puts multiply(2, 3) 
+
+
+def square(num)
+    return num * num
+end
+
+puts square(5)
+
+
+# 専門用語で整理：
+# 仮引数（パラメータ）:
+# rubydef greet(message)    # ← message = 仮引数（箱の名前）
+# 実引数（アーギュメント）:
+# rubygreet("Hello World")  # ← "Hello World" = 実引数（実際の値）
+# あなたの言葉で言い換えると：
+
+# message = 引数の入れ物（仮の名前）
+# "Hello World" = 実際に渡す値（詳細な内容）
+
+# 流れ：
+
+# 定義時：messageという「入れ物」を用意
+# 呼び出し時："Hello World"という「実際の値」を入れ物に入れる
+# 実行時：入れ物の中身（"Hello World"）を使用
