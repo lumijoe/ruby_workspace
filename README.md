@@ -61,10 +61,3 @@ I have no name!@baf359583f63:/app$ cat hello_world.rb
 || どちらかtrueのときtrue
 ! trueをfalseに、flaseをtrueにする
 
-# if
-age = 18
-if age >= 18
-  puts "You are an adult." # ageが18以上なら、このコードが実行されます。
-else
-  puts "You are a minor." # ageが18未満なら、このコードが実行されます。
-end
