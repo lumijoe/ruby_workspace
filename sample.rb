@@ -132,3 +132,53 @@ def cashier(prices)
 end
 
 cashier([100, 200, 300])
+
+# 違うコードNG例
+# def cashier(prices)
+#     sum = 0
+#     prices.each do |price|
+#         ((sum += price) * 1.1).floor
+#     end
+#     puts (sum + "円")
+# end
+# cashier([100, 200, 300])
+def cashier(prices)
+    sum = 0
+    prices.each do |price|
+        sum += price
+    end
+    puts "#{(sum * 1.1).floor}円"
+end
+
+cashier([100, 200, 300])
+
+# レストランの注文システムを作ってください。
+# 関数名は restaurant_bill
+# 引数は料理の価格が入った配列
+# 各料理の価格を合計する
+# 合計にサービス料15%を加算する
+# 小数点以下は切り上げ（.ceilを使用）
+# 「合計: ◯◯円」の形で表示する
+# 呼び出し例：
+# rubyrestaurant_bill([800, 1200, 500])
+# 期待する出力：
+# 合計: 2875円
+
+def rubyrestaurant_bill(prices)
+    sum = 0
+    prices.each do |price|
+        sum += price
+    end
+    puts "#{(sum * 1.1).ceil}円"
+end
+rubyrestaurant_bill([800, 1200, 500])
+
+def rubyrestaurant_bill(prices)
+    sum = 0
+    tax = 1.15
+    prices.each do |price|
+        sum += price
+    end
+    puts "#{(sum * tax).ceil}円"
+end
+rubyrestaurant_bill([800, 1200, 500])
