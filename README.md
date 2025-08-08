@@ -81,3 +81,14 @@ com +shift+p　でOpen Settings JSON　のuserを選び
 　〜Successfully 〜のような13 gems installedとなればOK
 - rubocop --version で確認
 - rubocop sample.rb で、ターミナルで重複警告が確認できる
+
+
+# def~end (宣言、関数、処理、実行)
+def cashier(prices)
+  sum = 0
+  prices.each do |price|
+    sum += price
+  end
+  puts sum
+end
+cahier([100, 200, 300])

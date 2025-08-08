@@ -121,3 +121,14 @@ def cashier(prices)
 end
 
 cashier([100, 200, 300])
+
+
+def cashier(prices)
+    sum = 0
+    prices.each do |price|
+        sum += price
+    end
+    puts sum
+end
+
+cashier([100, 200, 300])
