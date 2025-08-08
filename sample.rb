@@ -225,3 +225,15 @@ end
 
 items = [{ name: "apple", price: 100 }, { name: "banana", price: 200 }, { name: "orange", price: 300 }]
 cashier(items)
+
+
+def cashier(items)
+    sum = 0
+    items.each do |item|
+        puts "商品名: #{item[:name]}"
+        puts "価格: #{item[:price]}"
+    end
+end
+
+items = [{ name: "apple", price: 100 }, { name: "banana", price: 200 }, { name: "orange", price: 300 }]
+cashier(items)
