@@ -106,3 +106,18 @@ def cashier(p, r)
     puts (p + r)
 end
 cashier(20, 10)
+
+def cashier(prices)
+    p prices
+end
+
+cashier([100, 200, 300])
+
+
+def cashier(prices)
+    prices.each do |price|
+        puts price
+    end
+end
+
+cashier([100, 200, 300])
