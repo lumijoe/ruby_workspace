@@ -182,3 +182,18 @@ def rubyrestaurant_bill(prices)
     puts "#{(sum * tax).ceil}円"
 end
 rubyrestaurant_bill([800, 1200, 500])
+
+
+# ハッシュ
+# hash = {}
+# hash = { "key1" => "value1", "key2" => "value2" }
+
+# hash = { "name" => "Alice", "age" => "30" }
+# puts hash["name"]
+# puts hash["age"]
+# puts hash
+
+hash = { "name" => "Alice" }
+hash["age"] = 30
+hash["name"] = "Bob"
+puts hash
