@@ -193,18 +193,26 @@ rubyrestaurant_bill([800, 1200, 500])
 # puts hash["age"]
 # puts hash
 
-# hash = { "name" => "Alice" }
-# hash["age"] = 30
-# hash["name"] = "Bob"
-# puts hash
+hash = { "name" => "Alice" }
+hash["age"] = 30
+hash["name"] = "Bob"
+puts hash
 
 # シンボルをキーとする
-# student = { name: "Alice", age:30 }
-# puts student[:name]
-# puts student[:age]
+student = { name: "Alice", age:30 }
+puts student[:name]
+puts student[:age]
 
 # イテレーション
 hash = { name: "Alice", age: 30 }
 hash.each do |key, value|
     puts "#{key}: #{value}"
 end
+
+
+def cashier(items)
+    p items
+end
+
+items = [{ name: "apple", price: 100 }, { name: "banana", price: 200 }, { name: "orange", price: 300 }]
+cashier(items)
