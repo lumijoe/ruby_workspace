@@ -210,30 +210,56 @@ hash.each do |key, value|
 end
 
 
+# def cashier(items)
+#     p items
+# end
+
+# items = [{ name: "apple", price: 100 }, { name: "banana", price: 200 }, { name: "orange", price: 300 }]
+# cashier(items)
+
+# def cashier(items)
+#     items.each do |item|
+#         p item
+#     end
+# end
+
+# items = [{ name: "apple", price: 100 }, { name: "banana", price: 200 }, { name: "orange", price: 300 }]
+# cashier(items)
+
+
+# def cashier(items)
+#     sum = 0
+#     items.each do |item|
+#         puts "商品名: #{item[:name]}"
+#         puts "価格: #{item[:price]}"
+#     end
+# end
+
+# items = [{ name: "apple", price: 100 }, { name: "banana", price: 200 }, { name: "orange", price: 300 }]
+# cashier(items)
+
+
+# def cashier(items)
+#     sum = 0
+#     items.each do |item|
+#         puts "#{item[:name]}が1点"
+#         sum += item[:price]
+#     end
+#     puts "合計金額は#{(sum * 1.1).floor}円です"
+# end
+# items = [{ name: "apple", price: 100 }, { name: "banana", price: 200 }, { name: "orange", price: 300 }]
+# cashier(items)
+
+
 def cashier(items)
-    p items
+  sum = 0
+  items.each do |item|
+    puts "#{item[:name]}が1点"
+    sum += item[:price]
+  end
+  puts "合計金額は#{( sum * 1.1 ).floor}円です"
 end
 
 items = [{ name: "apple", price: 100 }, { name: "banana", price: 200 }, { name: "orange", price: 300 }]
-cashier(items)
 
-def cashier(items)
-    items.each do |item|
-        p item
-    end
-end
-
-items = [{ name: "apple", price: 100 }, { name: "banana", price: 200 }, { name: "orange", price: 300 }]
-cashier(items)
-
-
-def cashier(items)
-    sum = 0
-    items.each do |item|
-        puts "商品名: #{item[:name]}"
-        puts "価格: #{item[:price]}"
-    end
-end
-
-items = [{ name: "apple", price: 100 }, { name: "banana", price: 200 }, { name: "orange", price: 300 }]
 cashier(items)
