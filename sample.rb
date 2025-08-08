@@ -216,3 +216,12 @@ end
 
 items = [{ name: "apple", price: 100 }, { name: "banana", price: 200 }, { name: "orange", price: 300 }]
 cashier(items)
+
+def cashier(items)
+    items.each do |item|
+        p item
+    end
+end
+
+items = [{ name: "apple", price: 100 }, { name: "banana", price: 200 }, { name: "orange", price: 300 }]
+cashier(items)
